@@ -1,0 +1,23 @@
+{
+    "name": "misterspelik/google-text-to-speech",
+    "description": "PHP wrapper for Google Text To Speech API",
+    "keywords": ["google", "text", "speech", "audio"],
+    "homepage": "https://github.com/misterspelik/google-text-to-speech",
+    "type": "library",
+    "minimum-stability": "dev",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Yaroslav Krutikov",
+            "email": "misterspelik@gmail.com"
+        }
+    ],
+    "require" : {
+        "php": ">=5.6.0"		
+    },
+    "autoload": {
+        "psr-4": {
+            "misterspelik": "src/"
+        }
+    }
+}
