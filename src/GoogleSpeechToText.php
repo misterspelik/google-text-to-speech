@@ -1,9 +1,9 @@
 <?php
 
-namespace misterspelik;
+namespace GoogleTextToSpeech;
 
-use misterspelik\Config\SpeechToTextConfig;
-use misterspelik\Google\TextSynthetize;
+use GoogleTextToSpeech\Config\SpeechToTextConfig;
+use GoogleTextToSpeech\Google\TextSynthetize;
 
 class GoogleTextToSpeech
 {
@@ -26,6 +26,6 @@ class GoogleTextToSpeech
 
 	public function voices()
 	{
-		
+
 	}
 }

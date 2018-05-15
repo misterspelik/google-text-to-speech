@@ -1,6 +1,6 @@
 <?php
 
-namespace misterspelik\Config;
+namespace GoogleTextToSpeech\Config;
 
 class TextSynthetizeOptions
 {

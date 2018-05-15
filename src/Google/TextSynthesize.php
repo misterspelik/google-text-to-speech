@@ -1,17 +1,17 @@
 <?php
 
-namespace misterspelik\Google;
+namespace GoogleTextToSpeech\Google;
 
-use misterspelik\Config\SpeechToTextConfig;
-use misterspelik\Request\Post;
+use GoogleTextToSpeech\Config\SpeechToTextConfig;
+use GoogleTextToSpeech\Request\Post;
 
 class TextSynthetize
 {
 	public static function perform(SpeechToTextConfig $config, $text, $options)
 	{
 		$url= $config->getTextSynthetizeEndpoint();
-		$request = new Post($url);
+		$post = new Post($url);
 
-		return $request->execute();
+		return $post->execute($config->toJson());
 	}
 }

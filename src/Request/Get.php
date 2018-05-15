@@ -1,6 +1,6 @@
 <?php
 
-namespace misterspelik\Request;
+namespace GoogleTextToSpeech\Request;
 
 class Get extends Request
 {
